@@ -1,0 +1,12 @@
+Kali-remote access
+******************
+
+useradd -m (username)
+passwd (username)
+usermod -a -G sudo (username)
+chsh -s /bin/bash (username)
+
+sudo apt install xrdp
+
+sudo systemctl enable xrdp
+sudo systemctl restart xrdp
